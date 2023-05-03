@@ -1,0 +1,26 @@
+.right{
+    position: absolute;
+    right: 15px;
+    line-height: 50px;
+}
+
+.nav-link{
+    color: blue;
+}
+
+.mobile{
+    display: none;
+}
+
+.desktop{
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}

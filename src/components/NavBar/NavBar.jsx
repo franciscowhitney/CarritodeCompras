@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav';
 import CartWidget from '../CartWidget/CartWidget';
+import './NavBar.css'
 const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
@@ -19,7 +20,9 @@ const NavBar = () => {
             <Nav.Link href="#action1">Men</Nav.Link>
             <Nav.Link href="#action2">Wemen</Nav.Link>
             <Nav.Link href="#action3">Kids</Nav.Link>
-            <CartWidget/>
+            <div className="right desktop"><CartWidget/></div>
+            <div className="mobile"><CartWidget/></div>
+            
           </Nav>
           
         </Navbar.Collapse>
