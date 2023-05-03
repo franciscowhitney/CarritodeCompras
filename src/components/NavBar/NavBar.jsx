@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav';
+import CartWidget from '../CartWidget/CartWidget';
 const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg">
@@ -15,10 +16,10 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <Nav.Link href="#action3">Wemen</Nav.Link>
-            
+            <Nav.Link href="#action1">Men</Nav.Link>
+            <Nav.Link href="#action2">Wemen</Nav.Link>
+            <Nav.Link href="#action3">Kids</Nav.Link>
+            <CartWidget/>
           </Nav>
           
         </Navbar.Collapse>
