@@ -1,12 +1,11 @@
 const productos = [
-    { nombre: "Carro clasico", precio: 500, id: "1", img: "../img/img1.jpg", categoryName: "Clasico" },
-    { nombre: "Camioneta", precio: 180, id: "2", img: "../img/img2.jpg", categoryName: "Camioneta" },
-    { nombre: "Camioneta 2", precio: 180, id: "2", img: "../img/img3.jpg", categoryName: "Camioneta" },
-    { nombre: "Bicicleta 1", precio: 200, id: "3", img: "../img/img4.jpg", categoryName: "Biclos" },
-    { nombre: "Bicicleta 2", precio: 300, id: "3", img: "../img/img4.jpg", categoryName: "Biclos" },
-    { nombre: "Bicicleta 3", precio: 400, id: "3", img: "../img/img4.jpg", categoryName: "Biclos" },
-    { nombre: "Moto", precio: 400, id: "4", img: "../img/img5.jpg", categoryName: "Motos" },
-    { nombre: "Moto 2", precio: 400, id: "4", img: "../img/img5.jpg", categoryName: "Motos" },
+    { nombre: "Chevy", precio: 2000000, id: "1", img: "../img/auto1.jpg", categoryName: "Clasico" },
+    { nombre: "Mustang", precio: 350000, id: "2", img: "../img/auto2.jpg", categoryName: "Clasico" },
+    { nombre: "Porche", precio: 350000, id: "3", img: "../img/auto3.jpg", categoryName: "Clasico" },
+    { nombre: "Taos", precio: 50000, id: "4", img: "../img/auto4.jpg", categoryName: "Nuevos" },
+    { nombre: "Volvo", precio: 50000, id: "5", img: "../img/auto5.jpg", categoryName: "Nuevos" },
+    { nombre: "Harley", precio: 70000, id: "6", img: "../img/moto1.jpg", categoryName: "Motos" },
+    { nombre: "Ducati", precio: 75000, id: "7", img: "../img/moto2.jpg", categoryName: "Motos" },
 ];
 
 const getCategoriesFromProducts = () => { 
