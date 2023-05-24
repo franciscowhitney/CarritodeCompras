@@ -3,17 +3,16 @@
     right: 15px;
     line-height: 50px;
 }
-
-.nav-link{
-    color: blue;
-}
-
 .mobile{
     display: none;
 }
 
 .desktop{
     display: block;
+}
+
+.brandColored{
+    color:rgb(181, 126, 7);
 }
 
 @media (max-width: 991px) {
