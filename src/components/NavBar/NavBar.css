@@ -1,7 +1,6 @@
 .right{
     position: absolute;
     right: 15px;
-    line-height: 50px;
 }
 .mobile{
     display: none;
@@ -11,8 +10,17 @@
     display: block;
 }
 
-.brandColored{
-    color:rgb(181, 126, 7);
+nav a{
+    color: white;
+    margin-right: 5px;
+}
+
+nav a:last-of-type {
+    margin-right: none;
+}
+
+.navbar-brand a{
+    color: rgb(181, 126, 7);
 }
 
 @media (max-width: 991px) {

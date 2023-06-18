@@ -24,11 +24,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-html{
-  background-color: black;
-}
 .App-link {
   color: #61dafb;
+}
+
+a{
+  text-decoration: none !important;
+  color: black
+}
+
+html, body{
+  background: #e5e7e9 !important
 }
 
 @keyframes App-logo-spin {

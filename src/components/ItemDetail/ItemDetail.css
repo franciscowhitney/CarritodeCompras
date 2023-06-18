@@ -1,9 +1,45 @@
 .contenedorItem {
     text-align: center;
     border: 1px solid #e3e1e1;
-    margin: 3rem;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid #cacfd2;
+    overflow: hidden;
+    transition: width 1s;
+    box-sizing: border-box;
+}
+
+.cartButton{
+    display: inline;
+    margin-right: 8px;
+}
+
+.cartButton:last-of-type {
+    margin-right: 0;
 }
 
 img {
     width: 50vw;
+}
+
+@media (max-width: 990px) {
+    .contenedorItem{
+        margin: 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 349px) {
+    .withResponsiveMarginBottom {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cartButton {
+            display: block;
+        }
 }

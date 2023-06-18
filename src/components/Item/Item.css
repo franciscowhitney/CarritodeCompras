@@ -22,3 +22,27 @@
     border-radius: 10px;
     border: none;
 }
+
+.productListItem {
+    position: relative;
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    margin-bottom: 15px;
+    border: 1px solid #cacfd2;
+    overflow: hidden;
+    transition: width 1s;
+    min-height: 323px;
+}
+
+.productListItem:hover {
+    box-shadow: 2px 2px 2px 1px grey;
+    border: 1px solid white;
+}
+
+.productListItem .thumb {
+    width: 10em;
+    height: 10em;
+}
